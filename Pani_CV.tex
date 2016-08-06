@@ -1,0 +1,269 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+
+\usepackage{geometry}
+\geometry{a4paper,margin=1.25cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+
+\usepackage{multicol}
+
+\setlength{\columnsep}{1cm}
+
+\usepackage{textcomp}
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\Huge \textsc{Sandeep Kumar Pani}}\bigskip\par} % Your name
+\par{\centering{\textsc{13CS30027}}\par}
+\par{\centering\large {\textsc{Department of Computer Science and Engineering}}\par}\large
+\par{\centering\large {\textsc{Undergraduate student at Indian Institute of Technology, Kharagpur}}\par}\large
+%\par{{\begin{center}Dual Degree, \emph{Computer Science and Engineering}\end{center}}}
+%\begin{flushleft}{\normalsize {\href{mailto:sandeepkumarpani888@gmail.com}{sandeepkumarpani888@gmail.com}}}\end{flushleft}
+\hspace{3.5cm}\normalsize {\href{mailto:sandeepkumarpani888@gmail.com}{sandeepkumarpani888@gmail.com}} \hfill {+91-9874262606}\hspace{3.5cm}
+
+%\section{Personal Data}
+%
+%\begin{tabular}{rl}
+%\textsc{Place and Date of Birth:} & Canada  | 20 November 1987 \\
+%\textsc{Address:} & 123 Broadway, City, State, Canada \\
+%\textsc{Phone:} & +1 111 1112\\
+%\textsc{email:} & \href{mailto:john@smith.com}{john@smith.com}
+%\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	RESEARCH INTERESTS
+%----------------------------------------------------------------------------------------
+
+%\section{Research Interests}
+
+%- Software Engineering\hfill\\
+%- Algorithms\hfill
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{tabular}{r|p{15cm}}	
+2013-2018 & B.Tech and M.Tech (Dual Degree) in \textsc{Computer Science and Engineering}\\
+\textsc{(Expected)}&\textbf{Indian Institute of Technology}, Kharagpur\\
+%& 110/110 \small\emph{First Class Honours} | Major: Quantitative Finance\\
+%& Thesis: ``Money is the Root of All Evil - Or is it?'' | \small Advisor: Prof. James \textsc{Smith}\\
+&\normalsize \textsc{Cgpa}: 8.43/10.0\\
+%\hyperlink{grds}{\hfill | \footnotesize Detailed List of Exams}\\
+&\\
+
+%------------------------------------------------
+
+2013& Class XII, \textsc{}\textsc{Central Board of Secondary Education (CBSE)} \\
+%&110/110 \small\emph{Commerce Specialization},
+&\normalsize\textbf{MP and EV School}, Visakhapatnam\\
+%& Heavily specialized in mundane paperwork | \small Advisor: Stefano \textsc{Bonini}\\
+&\normalsize \textsc{Score}: 95.8\%\\
+%\hyperlink{grds_usc}{\hfill| \footnotesize Detailed List of Exams}\\
+&\\
+
+%------------------------------------------------
+
+2011 & Class X, \textsc{}\textsc{Central Board of Secondary Education (CBSE)} \\
+&\normalsize\textbf{Delhi Public School}, Siliguri\\
+& \textsc{Gpa}: 10.0/10.0\\
+%\hyperlink{grds_usc}{\hfill| \footnotesize Detailed List of Exams}\\
+&\\
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	Software Projects
+%----------------------------------------------------------------------------------------
+
+\section{Software Projects}
+
+\begin{tabular}{r|p{15cm}}
+%\emph{Current} & 1\textsuperscript{st} year Analyst at \textsc{Lehman Brothers}, London \\
+
+\emph{May-June 2016} & \textbf{Software Engineer Intern at Microsoft India Development Centre}\\
+& \footnotesize{- Part of the Azure Site Recovery team, which aims to provide consistent apps, workloads and data during planned and unplanned downtime or disasters, and to recover to normal working conditions (Disaster Recovery). }\\
+& \footnotesize{- As part of the team, I was responsible for helping provide Disaster-Recovery support for AWS cloud environment from the ground up. Worked extensively with Amazon EC2 instances and Azure, and was able to integrate the project on their current stack. Implemented several proof of concepts and investigation phases to help keep the system in a consistent state.}\\
+& \footnotesize{- Have been offered a Full-Time position on the basis of the work done. }\\
+\multicolumn{2}{c}{} \\
+
+\emph{April 2016} & \textbf{SELENE}\\
+& \textbf{Guide: }\textmd{\href{http://cse.iitkgp.ac.in/~pabitra/}{Professor Pabitra Mitra}}\\
+& \footnotesize{- An android app that serves as a social music recommendation engine using Facebook's graph API, YouTube's API and Musixmatch's API giving more priority to music listened to by your close friends.}\\
+& \footnotesize{- Link: \href{http://ghostwriternr.me/Selene/}{Selene}}\\
+\multicolumn{2}{c}{} \\
+
+\emph{Feb 2016} & \textbf{STUDIOUS | STUDY + DISCOVER }\\
+& \textbf{Guide: }\textmd{\href{http://cse.iitkgp.ac.in/~pabitra/}{Professor Pabitra Mitra}}\\
+& \footnotesize{- A complete course management system built upon MEAN stack, and supports major features like Assignment and Tutorial submmission and auto-evaluation, notifications to every student and a chat system for students and faculty.}\\
+& \footnotesize{- Messages and real time notifications were implement using socket.io and supports 4 distinct type of users: students, faculty, parent and administrator.
+}\\
+& \footnotesize{- Link: \href{https://github.com/ghostwriternr/dbmsass3}{STUDIOUS}}\\
+\multicolumn{2}{c}{} \\
+
+\emph{April 2016} & \textbf{Retriving salient sentences from Reddit AMAs}\\
+& \textbf{Guide: }\textmd{\href{http://cse.iitkgp.ac.in/~pawang/}{Professor Pawan Goyal}}\\
+& \footnotesize{- Built a web-based summariser that provides summaries from /r/iAMA . After obtaining the data from the web crawler, LDA model training was done on the entire dataset and categorised using link flairs on Reddit. k-mean clustering was then used to cluster the questions and answers. Concept tagging was then done using Alchemy API on each cluster.}\\
+& \footnotesize{- Link: \href{https://github.com/sayan1994/IR}{Information Retrival Project}}\\
+\multicolumn{2}{c}{} \\
+
+\emph{Feb 2015} & \textbf{Hall Management System}\\
+& \textbf{Guide: }\textmd{\href{http://www.iitkgp.ac.in/fac-profiles/showprofile.php?empcode=SSmUZ}{Professor Partha Pratim Das}}\\
+& \footnotesize{- Built a hall management system using MySQL and Java frontend which automates the process of managing various aspects of hall related activites like hall and room allocation, staff management and general overview of expenditure to name a few.}\\
+\multicolumn{2}{c}{} \\
+\end{tabular}
+
+%------------------------------------------------
+%	Projects and Competitions
+%------------------------------------------------
+\section{Competitions}
+
+\begin{tabular}{r|p{15cm}}
+
+
+\emph{March-April 2016} & \textbf{Data Extractor from 2D plots} \\
+& \textbf{OpenSoft 2016}\\
+& \footnotesize{- Worked on a team of 15 as a part of my hall team in OpenSoft 2016 to build a graph extractor that detects graphs in any PDF and plots the values in a tabular format.}\\
+& \footnotesize{- Was responsible for extracting the graph from the pdf document and scale of the axes.}\\
+\multicolumn{2}{c}{} \\
+
+\emph{Jun 2015} & \textbf{Angel Hacks} \\
+& \footnotesize{- Took part in \textbf{Angel Hacks Delhi}, a 24 hour hackathon, where my team built AppoloX, a context sensitive app which understands the context of the text and recommends accordingly. We used node.js, brain.js and the Android Platform. }\\
+& \footnotesize{- Link: \href{http://52.11.170.180:8080/}{ApolloX}}\\
+\multicolumn{2}{c}{} \\
+
+\emph{Mar 2015} & \textbf{Code.Fun.Do} \\
+& \footnotesize{- Built an app to help people with their therapy plans using \textbf{KINECT} to check the movement of joints and voice prompts to correct the movements during the \textbf{Microsoft Code.Fun.Do Hackathon}}\\
+\multicolumn{2}{c}{} \\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	SPORT PROGRAMMING
+%----------------------------------------------------------------------------------------
+
+\section{Sport Programming}
+
+- ACM-ICPC Onsite Regionals \textbf{Rank-63} (Team Event)\\
+- Member of Team yeah\_u\_wish, one among 25 teams all over india selected for KTJ coding event OVERNITE and secured \textbf{17th position} there.\\
+- Member of Team i\_weep and secured an \textbf{international rank of 51} in the online coding contest BITWISE(2015) organised by the Department of Computer Science and Engineering, IIT Kharagpur.\\
+- Regular on codeforces as {\href{http://codeforces.com/profile/renegade_warrior}{renegade\_warrior}}\\
+
+%----------------------------------------------------------------------------------------
+%	SKILLS 
+%----------------------------------------------------------------------------------------
+
+\section{Computer Skills}
+
+\begin{tabular}{r|p{15cm}}
+\textsc{Programming Languages} & C, C++, Java, Python, AngularJS\\
+\multicolumn{2}{c}{} \\
+\textsc{Software Packages} & Visual Studio, Eclipse, Codeblocks\\
+\multicolumn{2}{c}{} \\
+\textsc{Frameworks} & MEAN stack\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	COURSEWORK
+%----------------------------------------------------------------------------------------
+
+\section{Coursework
+\hfill\small\textsc{(T)heory and (L)aboratory}}
+
+\begin{multicols}{2}
+
+- Programming and Data Structures (T/L) \\
+- Algorithms-I (T/L) \\
+- Discrete Structures \\
+- Software Engineering (T/L) \\
+- Formal Languages and Automata Theory \\
+- Algorithms - II \\
+- Compilers (T/L) \\
+- Computer Organisation and Architecture (T/L) \\
+- Matrix Algebra \\
+- Database Management Systems (T/L) \\
+- Operating Systems (T/L) \\
+- Computer Networks (T/L) \\
+- Information Retrieval\\
+- Speech and Natural Language Processing
+\end{multicols}
+
+%----------------------------------------------------------------------------------------
+%	SCHOLASTIC ACHIEVEMENTS
+%----------------------------------------------------------------------------------------
+
+\section{Scholastic Achievements}
+
+\hspace*{0.5cm}- Secured All India Rank - 479 in \textbf{IIT JEE- ADVANCED 2013}.\\
+\hspace*{0.5cm}- Secured All India Rank - 416 in \textbf{IIT JEE-MAINS 2013}.\\
+\hspace*{0.5cm}- Secured the \textbf{KVPY Scholarship}.\\
+\hspace*{0.5cm}- Qualified for the second level in \textbf{Indian National Physics Olympiad}.\\
+
+%----------------------------------------------------------------------------------------
+%	EXTRA CURRICULAR ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+\section{Extra Curricular Activities}
+
+\hspace*{0.5cm}- Member of National Social Service\\
+\hspace*{0.5cm}- Kshitij volunteer during the main event KTJ 2014\\
+
+%----------------------------------------------------------------------------------------
+
+%\newpage
+%----------------------------------------------------------------------------------------
+
+\end{document}
